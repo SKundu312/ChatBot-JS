@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    max-width:100%;  
+}
+button{
+    position: absolute;
+    bottom: 1%;
+    right: 4%;
+    border-radius: 50%;
+    outline:none;
+    border: none;
+    background-color: #ff3b3b;
+    padding: 6px;
+    font-size: 17px;
+    color: white;
+    width: 3%;
+    height: 39px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #666;
+}
+button:hover,button:focus{
+    background-color: #7a0e0e;
+}
+header{
+    text-align: center;
+    padding: 23px;
+    font-size: 29px;
+    font-weight:bold;
+    font-stretch: ultra-expanded;
+    letter-spacing: 2px;
+    background-color: white;   
+    box-shadow: 10px 0 13px rgb(185, 184, 184);
+    z-index: 1;
+}
+main{
+    background-color: #e7f2f1;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display:flex;  
+}
+
